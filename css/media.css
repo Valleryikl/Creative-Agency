@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) {
+
+    .topnav .logo,
+    .topnav .list_link,
+    .topnav .nav_button {
+        display: none;
+    }
+
+    .topnav a.menu {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav {
+        margin: 0;
+    }
+
+    .topnav.responsive .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav .menu,
+    .topnav .logo,
+    .topnav .list_link,
+    .topnav .nav_button {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
