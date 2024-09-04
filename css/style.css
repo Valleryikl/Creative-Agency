@@ -19,19 +19,21 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+    padding: 7px;
     font-weight: lighter;
+    transition: all .3s ease-in-out;
 }
-
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    font-weight: bold;
 }
 
 .active {
-    background-color: #4CAF50;
-    color: white;
+    margin-right: 30%;
 }
 
 .topnav .icon {
     display: none;
+    display: flex;
+    align-content: center;
+    opacity: 0;
 }

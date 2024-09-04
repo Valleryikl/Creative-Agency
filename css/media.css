@@ -6,6 +6,7 @@
     .topnav a.icon {
         float: right;
         display: block;
+        opacity: 1;
     }
 }
 
@@ -13,13 +14,13 @@
     .topnav.responsive {
         position: relative;
         flex-direction: column;
-        
+
     }
 
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
-        top: 0;
+        top: 6%;
     }
 
     .topnav.responsive a {
