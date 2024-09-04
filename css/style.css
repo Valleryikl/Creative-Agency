@@ -1,35 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0E0E0E;
+    font-family: "Quicksand", sans-serif;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: inherit;
-    margin: 70px 105px;
+    margin: 70px 100px;
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
-.topnav .menu,
-.topnav .logo,
-.topnav .list_link,
-.topnav .nav_button{
+.topnav a {
     float: left;
     display: block;
+    color: #f2f2f2;
     text-align: center;
-
-}
-.topnav .list_link, 
-.topnav .menu {
     text-decoration: none;
-}
-.topnav .list {
-    display: flex;
-    gap: 50px;
-}
-.topnav img {
-    padding: 0;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .topnav a:hover {
